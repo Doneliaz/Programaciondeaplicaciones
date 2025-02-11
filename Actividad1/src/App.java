@@ -18,15 +18,9 @@ public class App {
                     int i = 0;
                     System.out.println("introduce el candidato numero " + i + ", Presiona 0 para salir");
                     num2 = entrada.nextInt()
-                    switch () {
-                        case value:
-                            
-                            break;
-                    
-                        default:
-                            break;
+                    while(num2 != 0){
+                        
                     }
-
 
                 }while (num2 != 0);
             }
@@ -35,4 +29,10 @@ public class App {
         } while (num1 != 0);
         entrada.close();
     }
+
+    public registrarCandidato(){
+        String nombre;
+        System.out.printf("Introduce el nombre del candidato");
+        nombre = entrada.netxLine();
+        
 }
