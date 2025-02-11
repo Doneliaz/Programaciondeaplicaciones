@@ -1,14 +1,15 @@
-Public class Candidatos{
-  private int id;
-  private int votos;
-  private String nombre;
-  static int CantCandidatos = 0;
+public class Candidato {
+    public int id;
+    public String nombre;
+    public int votos;
 
-
-  Public Candidato(String Nombre_Candidato){
-    this.id = CantCandidatos + 1;
-    this.votos = 0;
-    this.nombre = Nombre_Candidato;
+    public Candidato(int id, String nombre) {
+        this.id = id;
+        this.nombre = nombre;
+        this.votos = 0;
     }
-  
+
+    public int getId() {
+        return id;
+    }
 }
